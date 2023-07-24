@@ -192,7 +192,7 @@ const HomepageComponents = () => {
                         <motion.div className={styles.sixthboxsitems} ref={ref11} initial="hidden" animate={inView11 ? 'visible' : 'hidden'} variants={variants} transition={{ duration: TransitionDuration }}>1</motion.div>
                         <motion.div className={styles.sixthbox} ref={ref11} initial="hidden" animate={inView11 ? 'visible' : 'hidden'} variants={variants} transition={{ duration: TransitionDuration }}>
                             <h2 className={styles.sixthH2}>Download The App</h2>
-                            <p className={styles.sixthP}>It All Start’s By Downloading The Busineswise App on Your Phone.</p>
+                            <p className={styles.sixthP}>It All Start By Downloading The Busineswise App on Your Phone.</p>
                         </motion.div>
 
                         <motion.div className={styles.sixthboxsitems} ref={ref12} initial="hidden" animate={inView12 ? 'visible' : 'hidden'} variants={variants} transition={{ duration: TransitionDuration }}>2</motion.div>
