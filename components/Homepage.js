@@ -88,7 +88,7 @@ const HomepageComponents = () => {
                         initial={{ translateY: '100%', opacity: 0 }} animate={{ translateY: 0, opacity: 1 }} transition={{ duration: 0.4 }} /> */}
 
 
-                    <Image className={styles.phoneImg} src="/phoneImg.png" width={600} height={650}/>
+                    <Image className={styles.phoneImg} src="/phoneImg.png" width={600} height={650} />
 
 
                 </div>

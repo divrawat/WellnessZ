@@ -20,12 +20,12 @@ const Footer = () => {
 
             <div className={styles.Iconsdiv}>
 
-              <a href="#">   <FontAwesomeIcon  icon={faLinkedin} size="2x" /></a>
-              <a href="#">  <FontAwesomeIcon  icon={faInstagram} size="2x" /></a>
-              <a href="#">  <FontAwesomeIcon  icon={faTwitter} size="2x" /></a>
-              <a href="#">  <FontAwesomeIcon  icon={faGithub} size="2x" /></a>
-              <a href="#">  <FontAwesomeIcon  icon={faFacebook} size="2x" /></a>
-              
+              <a href="#">   <FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+              <a href="#">  <FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+              <a href="#">  <FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+              <a href="#">  <FontAwesomeIcon icon={faGithub} size="2x" /></a>
+              <a href="#">  <FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+
 
             </div>
           </div>

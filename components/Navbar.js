@@ -5,12 +5,12 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
 
   function disablenavbar2() {
-      let x = document.getElementById("disable")
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      }
-      else { x.style.display = "block" }
+    let x = document.getElementById("disable")
+    if (x.style.display === "block") {
+      x.style.display = "none";
     }
+    else { x.style.display = "block" }
+  }
 
   function disablenavbar() { document.getElementById("disable").style.display = "none"; }
   const router = useRouter();

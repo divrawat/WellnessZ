@@ -12,7 +12,7 @@ const Contact = () => {
 
             <div className={styles.backdrop}>
                 {/* <img src="/contact-backdrop.png" /> */}
-                <Image src="/contact-backdrop.png" width={800} height={350}/>
+                <Image src="/contact-backdrop.png" width={800} height={350} />
             </div>
 
             <div className={styles.headersection}>
@@ -50,7 +50,7 @@ const Contact = () => {
 
                     <div>
                         {/* <img src="/golden-temple.svg" alt=""  /> */}
-                        <Image src="/golden-temple.svg" width={330} height={320}/>
+                        <Image src="/golden-temple.svg" width={330} height={320} />
                         <></>
                     </div>
                 </div>
