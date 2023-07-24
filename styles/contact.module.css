@@ -1,0 +1,200 @@
+.backdrop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.headersection{
+    width: 100%;
+    height: 85vh;
+    margin-top: 30px;
+    backdrop-filter: blur(50px);
+}
+
+.databox{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.databox h1{
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.databox p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    color: #e0e0e0;
+}
+
+.email{
+    display: inline;
+}
+
+
+.contactcolumn{
+    margin-top: 100px;
+}
+
+.flexcolumn{
+    display: flex;
+}
+
+/* .headphone{
+    flex: 50%;
+} */
+.contactus{
+   margin-left: 50px;
+}
+
+.contactus h2{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contactus p{
+    display: inline;
+    font-size: 18px;
+}
+
+.contactus a{
+    color: white;
+    text-decoration: none;
+}
+
+.locationcontainer{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.locationcontainer h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.address{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid grey; 
+    padding: 20px;
+}
+
+.address p{
+    color: #878787;
+    
+}
+
+.address h3{
+    font-size: 32px;
+    font-family: var(--font-style);
+}
+
+.address img{
+    padding: 8px;
+}
+
+.faqcontainer{
+text-align: center;
+margin-top: 80px;
+padding: 8px;
+}
+
+.faqcontainer h2{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.faqcontainer h3:nth-child(2) {
+    font-size: 31px;
+}
+
+.faqcontainer h3:nth-child(3){
+    font-size: 28px;
+    color: #BC8C69;
+    margin-top: 15px;
+}
+
+@media (max-width: 1084px){
+         .address{
+            width: 90%;
+         }
+     }
+
+
+
+@media (max-width: 832px){
+.backdrop {
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+.databox {
+    width: 100%;
+    padding: 20px;
+}
+}
+
+
+@media (max-width: 581px){
+    .address{
+       display: block;
+       text-align: center;
+    }
+    .address img{
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .address p{
+        margin-top: 10px;
+    }
+    .locationcontainer h2{
+        font-size: 35px;
+        padding: 8px;
+    }
+}
+
+
+@media (max-width: 500px){
+.databox h1 {
+    font-size: 35px;
+}
+}
+
+
+@media (max-width: 430px){
+   .flexcolumn{
+    display: block;
+    text-align: center;
+   }
+   .contactus{
+    margin-left: 0px;
+   }
+   .faqcontainer h3:nth-child(2) {
+    font-size: 27px;
+}
+
+.faqcontainer h3:nth-child(3){
+    font-size: 22px;
+    margin-top: 20px;
+}
+    }
+
+    @media (max-width: 340px){
+       .databox h1{
+        margin-top: 100px;
+       }
+         }

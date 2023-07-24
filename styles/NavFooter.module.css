@@ -1,0 +1,286 @@
+  .nav {
+    width: 100%;
+    height: 65px;
+    background-color: #121212;
+    line-height: 65px;
+    padding: 0px 60px;
+    display: block;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  
+  .span {
+    color: white;
+    font-size: 25px;
+    display: none;
+    float: right;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  .nav .logo {
+    float: left;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', 'Arial';
+    letter-spacing: 1.7px;
+    color: white;
+    margin-left: 130px;
+  }
+  
+
+  .nav ul {
+    float: right;
+    display: block;
+    margin-right: 180px;
+  }
+  
+  .nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  
+  .nav ul li a {
+    border: 1px solid rgb(21, 21, 21);;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 45px 15px 45px 15px;
+    padding: 10px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  .nav ul li a:hover {
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+  
+
+  
+  @media screen and (max-width:1000px) {
+    .nav ul{
+        margin-right: 50px;
+      }
+  }
+  
+  @media screen and (min-width:901px) {
+    .nav ul {
+      display: block !important;
+    }
+  }
+
+
+  @media screen and (max-width:900px) {
+    .nav {
+      padding: 0px 0px;
+      position: relative;
+    }
+
+    .nav .logo {
+      margin-left: 40px;
+      font-size: 20px;
+    }
+  
+    .span {
+      display: block;
+      margin-right: 20px;
+    }
+  
+    .nav ul {
+      width: 100%;
+      background-color: rgb(21, 21, 21);
+      display: none;
+      text-align: center;
+      transition: 0.5s ease;
+      margin-bottom: 30px;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: -2px;
+      border-bottom: 1px solid grey;
+    }
+  
+    .nav ul li {
+      display: block;
+    }
+    
+  }
+  
+  
+
+  /* ------------------------FOOTER------------------------------------ */
+
+ 
+.footerbackground {
+    /* background-color: rgb(20, 19, 19); */
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(56, 55, 55) 90.2%);
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  
+  .footergrid {
+    /* margin-top: 40px; */
+    padding: 10px;
+    align-items: self-start;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  
+  .footerbox1 {
+    color: white;
+    line-height: 38px;
+    list-style: none;
+    max-width: 500px;
+    padding-left: 35px;
+  }
+  
+  
+  .footerbox ul {
+    list-style: none;
+  }
+  
+  .footerbox {
+    color: white;
+    line-height: 38px;
+  }
+  
+  
+  .footerbox a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footerbox a:hover {
+    text-decoration: underline;
+  }
+  
+  .Footerlogos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Footerlogos a {
+    text-decoration: none;
+  }
+  
+  .footerheading00 {
+    animation: neon 1s ease-in-out infinite alternate, pulsate 1.5s ease-out infinite;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+  
+  .footerheading {
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+  
+  .footercopyright {
+    margin-top: 20px;
+    font-weight: 700;
+    word-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .FooterIcons{
+    width: 40px;
+    height: 40px;
+  }
+  
+.Iconsdiv{
+  margin-top: 40px;
+}
+
+.Iconsdiv a{
+  text-decoration: none;
+  color: rgb(133, 133, 232);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+  @media screen and (max-width:1411px) {
+    .footergrid {
+      grid-gap: 20px;
+    }
+  }
+  
+  
+  @media screen and (max-width:1231px) {
+    .footergrid {
+      grid-gap: 50px;
+      grid-template-columns: auto auto auto;
+      padding-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width:868px) {
+    .footergrid {
+      grid-template-columns: auto auto;
+    }
+  
+    .footerbox {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .footerbackground{
+      padding-left: 15px;
+    padding-right: 15px;
+    }
+  }
+  
+  @media screen and (max-width:538px) {
+    .footergrid {
+      display: block;
+    }
+  
+    .Footerlogos {
+      text-align: center;
+    }
+  
+    .footerbox1 {
+      padding-left: 0px;
+      margin: 0px;
+    }
+  }
+  
+
+  @media screen and (max-width:538px){
+    .footerbackground{
+      padding: 5px;
+    }
+  }
+
+  
+  /*-------------------------         Footer   ------------------------------------------------- */
