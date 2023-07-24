@@ -235,7 +235,7 @@ const HomepageComponents = () => {
                 <motion.div className={styles.sixthgriditem} ref={ref17} initial="hidden" animate={inView17 ? 'visible' : 'hidden'} variants={variants} transition={{ duration: TransitionDuration }}>
 
                     {/* <img className={styles.seventhImg} src="/seventh.png" /> */}
-                    <Image className={styles.seventhImg} src="/seventh.png" height={300} width={300} />
+                    <Image className={styles.seventhImg} src="/seventh.png" height={600} width={300} />
                 </motion.div>
 
                 <motion.div className={styles.sixthgriditem} ref={ref18} initial="hidden" animate={inView18 ? 'visible' : 'hidden'} variants={variants} transition={{ duration: TransitionDuration }}><div style={{ backgroundColor: "#e0313159" }} className={styles.blur}>

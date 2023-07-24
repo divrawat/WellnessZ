@@ -361,6 +361,7 @@
 }
 
 .seventhImg {
+    object-fit: contain;
     width: 280px;
     height: 400px;
     margin-top: 25px;
@@ -780,10 +781,11 @@
     .column5{
         padding-right: 0px;
     }
-    .seventhImg, .sixthphone{
+    .sixthphone, .seventhImg{
         width: auto;
         height: auto;
     }
+
    
 .eightrow, .eightrow2{
     margin: 5px;
