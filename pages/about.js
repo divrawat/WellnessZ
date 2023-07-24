@@ -60,7 +60,7 @@ const About = () => {
                         <Image src="/pranav.jpeg" width={500} height={500} />
                         <h2>Divyanshu Rawat</h2>
 
-                        <button className={styles.biobutton} v onClick={() => handleButtonClick(1)}>
+                        <button className={styles.biobutton} onClick={() => handleButtonClick(1)}>
                             {activeButton === 1 ? 'Hide bio' : 'Show bio'}&nbsp; <FontAwesomeIcon icon={faArrowCircleDown} />
                         </button>
                         <p hidden={activeButton !== 1}>1 am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas I am dskncas</p>
