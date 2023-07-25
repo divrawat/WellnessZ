@@ -377,7 +377,9 @@
 
 
 .briefcaseLogo {
-    padding: 120px;
+    padding: 40px;
+    display: block;
+    margin: auto;
 }
 
 .head24 {
@@ -603,7 +605,10 @@
         padding-left: 40px;
     }
     .briefcaseLogo{
-        padding: 20px;
+        padding: 10px;
+        object-fit: contain;
+        height: auto;
+        width: auto;
     }
 }
 
@@ -760,6 +765,9 @@
     }
     .column10Img{
         height: 220px;
+    }
+    .seventhgrid, .sixthgrid{
+        margin-top: 30px;
     }
 }
 

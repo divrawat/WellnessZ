@@ -397,7 +397,8 @@ const HomepageComponents = () => {
 
 
             <div>
-                <img src="/breifcase-logo.svg" alt="" srcSet="" className={styles.briefcaseLogo} />
+                {/* <img src="/breifcase-logo.svg" alt="" srcSet="" className={styles.briefcaseLogo} /> */}
+                <Image src="/breifcaselogo.svg" alt="" srcSet="" className={styles.briefcaseLogo} width={900} height={900}/>
             </div>
 
             {/* ------------------------ */}
